@@ -1,0 +1,18 @@
+@import url("./header.css");
+
+:root{
+    --cor-background-principal: #EBECEE;
+    --cor-background-cabecalho: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-background-principal);
+}
+
+.cabecalho {
+    background-color: var(--cor-background-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
